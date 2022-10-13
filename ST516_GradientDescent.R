@@ -62,7 +62,7 @@ pred_gbm
 mse.gbm <- mean((test_data$concrete_compressive_strength - pred_gbm)^2) 
 mse.gbm
 
-
+summary(gbm_model)
 
 
 
